@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body, html{
+    background-color: #d6d4e2;
+}
+
+.container{
+    margin-top: 0.1rem;
+    height: 99.1vh;
+    width: 100%;
+    border-right: 1px solid grey;
+    box-shadow: 10px 1px 10px grey;
+    background-color: white;
+}
+.logo{
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    display: flex;
+    padding: 1rem;   
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+.text{padding-left: 1rem;}
+
+.profile .text p{
+    font-size: 15px;
+    color: grey;
+}
+.profile .text h4{font-weight: bold;}
+.menu{
+    padding: 1.1rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.home:hover{
+    padding-left: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+@media (min-width: 374px){
+    .container{  
+        max-width: 250px;
+    }
+}
